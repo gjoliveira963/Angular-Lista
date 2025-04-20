@@ -1,19 +1,29 @@
-# Calculadora Angular
+# Portfólio Angular: Calculadora e Lista de Compras
 
-Uma calculadora simples e responsiva desenvolvida com Angular 19+.
+Este projeto demonstra conhecimentos em Angular com duas funcionalidades
+principais:
 
-## 📋 Sobre o Projeto
-
-Este projeto é uma calculadora web implementada utilizando o framework Angular.
-A aplicação oferece uma interface simples e intuitiva para realizar operações
-matemáticas básicas.
+- **Calculadora**: operações matemáticas básicas com interface moderna e
+  responsiva.
+- **Lista de Compras**: mini CRUD completo, com persistência em localStorage,
+  edição inline, exclusão, marcação de itens e visual profissional.
 
 ## ✨ Funcionalidades
 
-- Operações básicas (adição, subtração, multiplicação e divisão)
-- Interface responsiva e moderna
-- Funcionalidade de limpar cálculo
-- Suporte a operações com números decimais
+### Calculadora
+
+- Adição, subtração, multiplicação e divisão
+- Validação de divisão por zero
+- Limpar cálculo
+- Interface responsiva
+
+### Lista de Compras
+
+- Adicionar, editar, excluir e marcar itens como comprados
+- Edição inline e ações intuitivas
+- Limpar toda a lista
+- Persistência automática no localStorage
+- Visual moderno e responsivo
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -22,42 +32,34 @@ matemáticas básicas.
 - HTML5
 - CSS3
 
-## 📦 Pré-requisitos
-
-Antes de começar, você precisará ter instalado em sua máquina:
-
-- Node.js (versão 18.x ou superior)
-- npm (gerenciador de pacotes do Node)
-- Angular CLI
-
 ## 🛠️ Instalação
 
-- Clone o repositório:
+1. Clone o repositório:
 
 ```bash
-git clone [link](https://duckduckgo.com)
+git clone <url-do-seu-repositorio>
 ```
 
-- Navegue até o diretório do projeto:
+2. Acesse a pasta do projeto:
 
 ```bash
-cd Angular-Calculadora
+cd Angular-Lista
 ```
 
-- Instale as dependências:
+3. Instale as dependências:
 
 ```bash
 npm install
 ```
 
-- Inicie o servidor de desenvolvimento:
+4. Inicie o servidor de desenvolvimento:
 
 ```bash
 npm start
 ```
 
-A aplicação estará disponível em `http://localhost:4200`.
+Acesse em `http://localhost:4200`.
 
 ## 📝 Licença
 
-Este projeto está sob a licença MIT.
+MIT

@@ -1,3 +1,22 @@
-<router-outlet />
-
-<app-calculadora />
+<!-- Menu de navegação do portfólio -->
+<nav class="navbar">
+	<a
+		routerLink="/"
+		routerLinkActive="active"
+		[routerLinkActiveOptions]="{ exact: true }"
+		>Início</a
+	>
+	<a
+		routerLink="/calculadora"
+		routerLinkActive="active"
+		>Calculadora</a
+	>
+	<a
+		routerLink="/lista-compras"
+		routerLinkActive="active"
+		>Lista de Compras</a
+	>
+</nav>
+<main>
+	<router-outlet />
+</main>
