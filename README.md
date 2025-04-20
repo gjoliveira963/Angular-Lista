@@ -1,12 +1,13 @@
-# Portfólio Angular: Calculadora e Lista de Compras
+# Calculadora e Lista de Compras
 
-Este projeto demonstra conhecimentos em Angular com duas funcionalidades
-principais:
+Este projeto Angular oferece duas funcionalidades principais, acessíveis por
+rotas distintas:
 
-- **Calculadora**: operações matemáticas básicas com interface moderna e
-  responsiva.
-- **Lista de Compras**: mini CRUD completo, com persistência em localStorage,
-  edição inline, exclusão, marcação de itens e visual profissional.
+- **Calculadora**: Permite realizar operações matemáticas básicas (adição,
+  subtração, multiplicação e divisão).
+- **Lista de Compras**: Mini CRUD completo para gerenciar itens de compras, com
+  recursos de adicionar, editar, excluir, marcar como comprado, edição inline,
+  limpeza da lista e persistência automática no localStorage.
 
 ## ✨ Funcionalidades
 
@@ -59,6 +60,8 @@ npm start
 ```
 
 Acesse em `http://localhost:4200`.
+
+---
 
 ## 📝 Licença
 
