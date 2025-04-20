@@ -60,9 +60,3 @@ npm start
 ```
 
 Acesse em `http://localhost:4200`.
-
----
-
-## 📝 Licença
-
-MIT
