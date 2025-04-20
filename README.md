@@ -38,7 +38,7 @@ rotas distintas:
 1. Clone o repositório:
 
 ```bash
-git clone <url-do-seu-repositorio>
+git clone <https://github.com/gjoliveira963/Angular-Lista>
 ```
 
 2. Acesse a pasta do projeto:
